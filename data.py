@@ -10,10 +10,10 @@ def get_utc_time():
 
 data = {
     "slack_name": "Franca Mgbogu",
-    "current_day": get_current_day(),  # Replace with function call
-    "utc_time": get_utc_time(),        # Replace with function call
+    "current_day": get_current_day(),  
+    "utc_time": get_utc_time(),        
     "track": "backend",
-    "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-    "github_repo_url": "https://github.com/username/repo",
+    "github_file_url": "https://github.com/franciedigital/HNG/blob/master/main.py",
+    "github_repo_url": "https://github.com/franciedigital/HNG",
     "status_code": 200
 }
