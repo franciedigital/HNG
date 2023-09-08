@@ -4,6 +4,11 @@ from typing import Optional
 
 app = FastAPI()
 
+
+@app.get("/")
+def index():
+    return {"Hello": "World"}
+
 @app.get("/api")
 def get_data(slack_name: Optional[str] = None, track: Optional[str] = None):
     if slack_name is None or track is None:
