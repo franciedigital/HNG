@@ -28,7 +28,5 @@ def get_data(slack_name: Optional[str] = None, track: Optional[str] = None):
         "github_repo_url": github_repo_url,
         "status_code": 200,
     }
-
-    print(response_data)
     
     return response_data
